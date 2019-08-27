@@ -31,7 +31,6 @@ img{
 #menu{
   width:75%;
   margin-top: 0;
-  z-index:10;
 }
 
 #menu_list{
@@ -116,9 +115,6 @@ img{
 #container_main_img{
 	float:left;
 	width:35%;
-	position: relative;
-	top:-50px;
-	z-index: -1;
 }
 
 #container_main_search{
@@ -126,9 +122,6 @@ img{
 	float:left;
 	width:5%;
         object-fit: contain;
-	position: relative;
-        top:-50px;
-        z-index: -1;
 }
 
 #search_container{
