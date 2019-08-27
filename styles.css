@@ -31,6 +31,7 @@ img{
 #menu{
   width:75%;
   margin-top: 0;
+  z-index: 10;
 }
 
 #menu_list{
@@ -60,6 +61,10 @@ img{
  }
  
  #container_main{ 
+  position: relative;
+  top:0;
+  z-index: -1;
+  margin-bottom:-50px;
 }
 
 #container_main_text{
@@ -71,7 +76,7 @@ img{
 	width: 80%;
     height: 96px;
     font-size: 40px;
-    line-height: 46px;
+    line-height: 46px
     max-height: : 92px;
     overflow: hidden;
     font-weight: bold;
@@ -115,13 +120,20 @@ img{
 #container_main_img{
 	float:left;
 	width:35%;
+  position: relative;
+  top:-50px;
+  z-index: -1;
 }
 
 #container_main_search{
 	text-align: center;
 	float:left;
 	width:5%;
-        object-fit: contain;
+  object-fit: contain;
+  position: relative;
+  top:-50px;
+  z-index: -1;
+  padding-top:20px;
 }
 
 #search_container{
@@ -129,7 +141,6 @@ img{
   width: 17px;
   display: inline-block;
 }
-
 #featured_articles{
   background-image: linear-gradient(to left, #040653, #0e0d1e);
 }
