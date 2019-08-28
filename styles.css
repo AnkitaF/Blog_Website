@@ -226,7 +226,9 @@ img{
   color: #ffffff;
 }
 
+
 #pop_art_highlights{
+  padding-top:20px;
 }
 
 #pop_art_highlights_container::after{
@@ -379,7 +381,8 @@ img{
 }
 
 #foot{
-  background-color: rgba(158, 168, 173, 0.1)
+  background-color: rgba(158, 168, 173, 0.1);
+  padding: 20px 10px;
 }
 
 #blog{
