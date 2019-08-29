@@ -20,7 +20,7 @@ button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-
 .container{width:1200px;max-width:100%;margin:0 auto;position:relative;padding:10px 15px 0 15px}
 
 
-img{
+.container_img{
   display: block;
   width:100%;
   height: 100%;
@@ -36,16 +36,17 @@ img{
 
 #menu_list{
 	z-index:1;
+   background-color: white;
 }
 
 
 .menu_list_item{
 	display: inline-block;
 	padding: 5px;
-	width:13%;
+	width:13.9%;
 	text-align: center;
 	height:50px;
-	line-height:50px;
+	line-height:41px;
 
 }
 
@@ -166,7 +167,6 @@ img{
   
 
 .arts_wrapper{
-  width: 100%;
   margin: 0 -27px;
 }
 
@@ -186,6 +186,8 @@ img{
 
 .featured_img{
 	border-radius: 6px;
+  display: block;
+  width: 100%;
 }
 
 .arts_text{
@@ -292,7 +294,6 @@ img{
 }
 
 #pop_art_container{
-  width:100%;
   height: auto;
   margin: 0 -25px;
 }
@@ -516,7 +517,6 @@ img{
 }
 
 
-
 @media screen and (max-width: 1199px){
   .menu_list_item{
     display:block;
@@ -564,7 +564,8 @@ img{
   
 
   #container_main_img{
-    width:100%
+    width:100%;
+    height:440px;
   }
 
   #container_main{
@@ -583,7 +584,6 @@ img{
     padding: 10px;
   }
 }
-
 
 @media screen and (max-width: 991px){
 
@@ -617,6 +617,10 @@ img{
     width: 40%;
   }
 
+  #container_main_img{
+    height:380px;
+  }
+
 }
 
 @media screen and (max-width: 767px){
@@ -635,11 +639,14 @@ img{
   .img_container {
     padding:0;
 
+  } 
+
+  #container_main_img{
+    height:380px;
+  }
+
 }
 
-  
-
-}
 
 @media screen and (max-width: 575px){
   .pop_art{
@@ -666,5 +673,11 @@ img{
     padding:0 20px;
 
 }
+  #container_main_img{
+    height:380px;
+  }
+
 }
+
+
 
