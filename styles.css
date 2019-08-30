@@ -75,6 +75,7 @@ button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-
 	width: 60px;
 	background-color: inherit;
 	cursor: pointer;
+	display: none;
 }
 
 #container_main::after{
